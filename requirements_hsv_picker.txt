@@ -1,4 +1,14 @@
-# Requirements for HSV Color Picker Tool
+# Requirements for Tomato Quality Checker and HSV Color Picker Tool
+# Core web framework
 flask>=2.0.0
+
+# Computer vision and image processing
 opencv-python>=4.5.0
 numpy>=1.20.0
+
+# Raspberry Pi camera support
+picamera2>=0.3.0
+libcamera>=0.5.0
+
+# Additional dependencies for optimized performance
+pillow>=8.0.0
